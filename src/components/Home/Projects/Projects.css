@@ -1,0 +1,6 @@
+.background{
+    background: linear-gradient(rgba(109, 108, 108, 0.5), rgba(238, 232, 232, 0.5)), url('../../../images/canvas-slate.jpg');
+    border-radius: 15px;
+    color: white;
+  
+}

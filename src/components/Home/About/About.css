@@ -1,0 +1,5 @@
+.about{
+    background: url('../../../images/canvas-slate.jpg');
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 30%);
+    align-items: center;
+}
