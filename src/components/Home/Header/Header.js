@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar';
 
 const Header = () => {
     return (
-        <div style={{height:"700px"}} className="header container-fluid">
+        <div style={{height:"700px"}} className="headerBackground container-fluid">
             <Navbar/>
             <Headermain/>
         </div>

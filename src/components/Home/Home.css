@@ -1,4 +1,4 @@
-.header{
+.headerBackground{
     background: url('../../images/canvas-slate.jpg');
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 70%, 0% 100%)
 }
