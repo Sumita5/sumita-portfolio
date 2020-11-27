@@ -6,6 +6,7 @@ import image4 from '../../../images/hotGadjet.png';
 import image5 from '../../../images/socialBuddy.png';
 import image6 from '../../../images/doctorPortal.png';
 import image7 from '../../../images/E-School.png';
+import image8 from '../../../images/to-do-list.png';
 import './Projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -59,7 +60,15 @@ const projectData = [
         image: image6,
         github: 'https://github.com/Sumita5/Doctors-Portal.git',
         livelink: 'coming soon',
+    },
+    {
+        title: 'To-Do-List',
+        description: 'Single Page web application for entering activity, Updating and deleting',
+        image: image8,
+        github: 'https://github.com/Sumita5/react-to-do.git',
+        livelink: 'https://to-do-list-all.web.app/home',
     }
+
 
 ];
 
@@ -67,7 +76,7 @@ const Projects = () => {
     return (
         <div id="projects" className="Projects container py-3">
             <div className="header text-center">
-                <h2>MY LATEST <span>PROJECTS</span></h2>
+                <h2>MY ACCOMPLISHED PROJECTS</h2>
                 <p>An eye for detail makes my works excellent</p>
                 <div className="wrapper">
                     <div className="divider div-transparent div-dot"></div>
@@ -79,22 +88,22 @@ const Projects = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="card mt-4">
                                 <img className="card-img-top" src={pd.image} alt="" />
-                                <div className="card-body">
+                                <div className="card-body text-decoration-none">
                                     <h4 className="card-title">{pd.title}</h4>
                                     <p className="card-text">{pd.description}</p>
                                     <div className="technology mb-2"><span>React</span> <span>React Router</span> <span>Node.js</span> <span>Express.js</span> <span>MongoDB</span> <span>Bootstrap</span> <span>Firebase</span> <span>Heroku</span></div>
-                                    
-                                    <a href={pd.github} target="_blank" rel="noopener noreferrer" className="mr-3">
-                                    <button type="button" class="btn btn-secondary btn-block">
-                                    <FontAwesomeIcon className="icon mr-2" icon={faGithub} />                                    
+
+                                    <a href={pd.github} >
+                                        <button type="button" className="btn btn-secondary btn-block">
+                                            <FontAwesomeIcon className="icon mr-2" icon={faGithub} />
                                    GitHub Link</button>
                                     </a>
 
-                                    <a href={pd.livelink} target="_blank" rel="noopener noreferrer">
-                                    <button type="button" class="btn btn-primary btn-block">
-                                    <FontAwesomeIcon className="icon mr-2" icon={faExternalLinkAlt} />
+                                    <a href={pd.livelink}>
+                                        <button type="button" className="btn btn-primary btn-block">
+                                            <FontAwesomeIcon className="icon mr-2" icon={faExternalLinkAlt} />
                                     Live site</button>
-                                    </a>
+                                    </a>                                   
                                 </div>
                             </div>
                         </div>

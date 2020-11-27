@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import './Navbar.css'
+import './Navbar.css'
 
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light">
+            <nav className="navbar navbar-expand-lg navbar-lighty fixed-top" >
                 <a className="navbar-brand  text-white" href="#">Welcome</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

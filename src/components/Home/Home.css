@@ -1,6 +1,17 @@
 .headerBackground{
     background: url('../../images/canvas-slate.jpg');
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 70%, 0% 100%)
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 70%, 0% 100%);
+    padding-top: 9%;
+}
+
+.navbar{
+    background: url('../../images/canvas-slate.jpg');
+    width: 100%;
+        position: fixed;
+        top: 0;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        z-index: 99; 
 }
 .navbar li{
     color: white;

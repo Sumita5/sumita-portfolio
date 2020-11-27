@@ -26,7 +26,7 @@ const About = () => {
               <div>
                 <button
                   onClick={openModal}
-                  className="btn btn-outline-info button"
+                  className="btn btn-outline-info"
                 >
                   Send Massage
                 </button>
@@ -37,7 +37,7 @@ const About = () => {
               </div>
               <div>
                 <a href="https://drive.google.com/file/d/14ge-FvB8kaC38a-KdN6ze7Duet0ECJ0w/view?usp=sharing">
-                  <button className="btn btn-info resume-btn ml-3">
+                  <button className="btn btn-info ml-3">
                     <strong>Download Resume</strong>
                   </button>
                 </a>

@@ -2,6 +2,17 @@
 .Projects .card {
     background-color: #f7ead4de;
     color: black;
+    border-radius: 10px;   
+    
+}
+
+.Projects img{
+    border-radius:10px;
+}
+
+.Projects .card:hover {
+    background-color: #e4f8fcd7;  
+    border: 1px solid black;  
 }
 
 .Projects .btn {
@@ -13,21 +24,20 @@
     border: 1px solid #FFFFFF;
 }
 
-.Projects .btn:hover {
-    text-decoration: none;
+.Projects .btn:hover {    
     font-size: 16px;
-    color: #f3c623;
-    border: 1px solid #f3c623;
+    color: black;
+    border: 1px solid black;
+    
+}
+.Projects a:hover {    
+    text-decoration: none;    
+    
 }
 
 .Projects .header h2 {
     font-size: 35px;
 }
-
-.Projects .header span {
-    color: #f3c623;
-}
-
 .Projects p {
     font-size: 16px;
 }
@@ -39,7 +49,7 @@
     border-radius: 3px;
     padding: 3px 10px;
     font-size: 13px;
-    border: 1px solid #f3c623;
+    border: 1px solid black;
 }
 
 .Projects .fab,
@@ -74,7 +84,7 @@
 	right: 25%;
 	width: 50%;
 	height: 1px;
-	background: #fff;
+	background: rgb(0, 255, 42);
 }
 
 .Projects .div-dot:after
